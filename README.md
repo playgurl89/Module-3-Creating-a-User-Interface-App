@@ -63,15 +63,16 @@ The project follows a Maven-based structure.
 src/
 └── main/
     └── java/
-        └── application source files
+        └── com/
+            └── example/
+                └── App.java
 
 pom.xml
 log.txt
 README.md
 ```
 
-The `pom.xml` file manages the Maven project configuration and JavaFX dependencies.
-
+The `App.java` file contains the main JavaFX application, while `pom.xml` manages the Maven project configuration and JavaFX dependencies.
 ## How It Works
 
 When the application launches, it creates the graphical user interface and generates a random green background color.
